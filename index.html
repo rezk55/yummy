@@ -1,0 +1,114 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- MY Style  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="">
+        <nav class="h-100vh position-fixed">
+            <div class="menu">
+                <ul class="lists">
+                    <li>
+                        <a id="showSearch">Search</a>
+                    </li>
+                    <li>
+                        <a id="showCategories">Categories</a>
+                    </li>
+                    <li>
+                        <a id="showArea">Area</a>
+                    </li>
+                    <li>
+                        <a id="showIngredients">Ingredients</a>
+                    </li>
+                    <li>
+                        <a id="showContact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="control bg-white ms-auto">
+                <div class="emoj w-75 m-auto mt-3">
+                    <img class="w-100" src="imgs/logo.png" alt="" srcset="">
+                </div>
+                <div class="show-hide position-relative mt-0">
+                    <button class="show">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                    </button>
+                    <button class="hide position-absolute end-0 bottom-0 ">
+                        <i class="fa-solid fa-x m-auto"></i>
+                    </button>
+                </div>
+                <div class="links mb-3">
+                   <a href="http://" class="">
+                        <i class="fa-solid fa-globe d-block pb-2"></i>
+                   </a>
+                    <a href="http://" class="">
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer ">
+                <div class="links">
+                    <a href="http://" class="text-white">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="http://" class="text-white">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="http://" class="text-white">
+                        <i class="fa-solid fa-globe"></i>
+                    </a>
+                </div>
+                <div class="copywrite">
+                    <p class="w-75 text-white">Copyright Â© 2019 All Rights
+                        Reserved.</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div id="search" class="search pt-5">
+        <div class="container">
+         <form action="">
+           <div class="row">
+             <div class="col-lg-6">
+                 <div class="mb-3">
+                     <input type="text" class="form-control" id="name" placeholder="Search By Name">
+                 </div>    
+             </div>  
+             <div class="col-lg-6">
+                 <div class="mb-3">
+                     <input type="text" class="form-control" id="fLetter" placeholder="Search By First Letter">
+                 </div> 
+             </div>   
+           </div>            
+         </form>
+        </div>
+    </div>
+
+    <div class="show-data" id="">
+        <div class="container vh-100 d-flex">
+            <div class="row w-100 my-auto gy-4 position-relative " id="showData">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
